@@ -26,7 +26,7 @@ Follow these steps to get a local copy up and running:
     ```
 
 ## Running the Project
-    ```bash
+```bash
     npm start
-    ```
-    This will typically start a development server, and you can view the site at `http://localhost:3000` (the port number will be shown in your terminal).
+```
+This will typically start a development server, and you can view the site at `http://localhost:3000` (the port number will be shown in your terminal).
