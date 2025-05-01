@@ -1,0 +1,19 @@
+.testimonials-section h3 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    border-bottom: 3px solid #b7b7b787;
+    padding-bottom: 15px;
+    font-weight: 500;
+    text-align-last: end;
+}
+
+.logo-icon {
+    align-self: flex-end;
+    padding-bottom: 25px;
+}
+
+@media screen and (max-width: 480px) {
+    .testimonials-container {
+        padding: 0px;
+    }
+}

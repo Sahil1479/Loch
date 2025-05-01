@@ -1,0 +1,73 @@
+.card {
+    padding: 18px;
+    font-family: sans-serif;
+    width: 210px;
+    height: 200px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 27.5%, rgba(22, 93, 255, 0.162) 157.71%), #FFFFFF;
+    box-shadow: 0px 2.8px 7px rgba(0, 0, 0, 0.04), 0px 0.7px 0.7px rgba(0, 0, 0, 0.04);
+    border-radius: 8.4px;
+    display: flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  .card-header input {
+    width: 15px;
+    height: 15px;
+  }
+  
+  .icon-placeholder {
+    display: flex;
+    gap: 2px;
+    margin-top: 4px;
+  }
+  
+  .bar {
+    width: 3px;
+    background: black;
+    border-radius: 1px;
+  }
+  
+  .bar.short {
+    height: 10px;
+  }
+  
+  .bar.medium {
+    height: 14px;
+  }
+  
+  .bar.tall {
+    height: 18px;
+  }
+  
+  .card-body {
+    margin-top: 0px;
+  }
+  
+  .card-body p {
+    margin: 0 0 8px 0;
+    font-size: 13px;
+    color: black;
+    opacity: 1;
+  }
+  
+  .dropdown {
+    width: 50%;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 10px;
+    background: #e1e1e1;
+  }
+  
+  .card-footer {
+    color: black;
+    font-size: 11px;
+  }

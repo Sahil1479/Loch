@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:500");
+
+:root {
+  --active-shadow: 0px 14px 64px -4px rgba(24, 39, 75, 0.12), 0px 8px 22px -6px rgba(24, 39, 75, 0.12);
+  --background-f2f2f2: rgba(242, 242, 242, 1);
+  --white: rgba(255, 255, 255, 1);
+}
+
+.box {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.box .group {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.box .eye {
+  height: 32px;
+  width: 32px;
+  align-self: flex-end;
+  margin: 15px 0px;
+}
+
+.box .content-wrapper .eye-icon-wrapper {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.box .content-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.box .div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+.box .secondary-label {
+    color: var(--background-f2f2f2);
+    font-family: var(--heading-4-font-family);
+    font-size: var(--heading-4-font-size);
+    font-style: var(--heading-4-font-style);
+    font-weight: var(--heading-4-font-weight);
+    height: 74px;
+    left: 0;
+    letter-spacing: var(--heading-4-letter-spacing);
+    line-height: var(--heading-4-line-height);
+    position: absolute;
+    text-align: right;
+    top: 0;
+    width: 305px;
+}
+
+.box .text-wrapper {
+  color: var(--background-f2f2f2);
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0px;
+  line-height: 120.00000762939453%;
+  opacity: 0.7;
+  text-align: left;
+}
+
+.box .cohorts {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.whale-watch-section {
+    margin-bottom: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align:right;
+    margin-block: 0px 15px;
+    justify-content: end;
+}
+
+@media (max-width: 740px) {
+    .box .content-wrapper .eye-icon-wrapper {
+        justify-content: center;
+    }
+    .box .secondary-label {
+        text-align: center;
+    }
+    .box .text-wrapper {
+        text-align: center;
+    }
+    .whale-watch-section {
+        text-align: center;
+        margin-bottom: 20px;
+        justify-content: center;
+    }
+    .box .cohorts {
+        margin-bottom: -50px;
+    }
+}
+
+@media (min-width: 741px) {
+  .box .group {
+    flex-direction: row;
+  }
+
+  .box .content-wrapper {
+    flex-direction: row;
+    width: calc(100% - 200px);
+  }
+
+  .box .div {
+    padding: 0 20px;
+  }
+
+  .box .secondary-label,
+  .box .text-wrapper {
+    text-align: right;
+  }
+}
