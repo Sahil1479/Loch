@@ -3,16 +3,16 @@
     max-width: 50%;
     overflow: hidden;
     margin: auto 0px auto auto;
-  }
+}
 
-  .fade-dynamic {
+.fade-dynamic {
     -webkit-mask-image: linear-gradient(to right, transparent, black 20%, black 80%, transparent);
     mask-image: linear-gradient(to right, transparent, black 20%, black 80%, transparent);
     -webkit-mask-size: 100% 100%;
     mask-size: 100% 100%;
     -webkit-mask-repeat: no-repeat;
     mask-repeat: no-repeat;
-  }
+}
   
 @media screen and (max-width: 788px) {
     .infinite-carousel-wrapper {
@@ -27,10 +27,3 @@
       margin-top: 20px;
     }  
 }
-
-/* @media (min-width: 1025px) {
-    .infinite-carousel-wrapper {
-      width: 40%;
-      margin-top: 20px;
-    }  
-} */

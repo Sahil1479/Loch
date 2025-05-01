@@ -28,52 +28,6 @@
   padding: 40px;
 }
 
-.right-section .signup-form h2 {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 39px;
-    line-height: 120%;
-    display: flex;
-    align-items: center;
-    color: #B0B1B3;
-}
-
-.right-section .signup-form input {
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 20px 24px;
-    width: 100%;
-    height: 59px;
-    background: #FFFFFF;
-    border: 1px solid #E5E5E6;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.04), 0px 1px 1px rgba(0, 0, 0, 0.04);
-    border-radius: 8px;
-}
-
-.right-section .signup-form button {
-    box-sizing: border-box;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 59px;
-    background: #19191A;
-    border: 1px solid #19191A;
-    border-radius: 8px;
-}
-
-.right-section .signup-form p {
-    width: 100%;
-    margin-top: 20px;
-    font-size: 14px;
-    height: 55px;
-    opacity: 0.8;
-    text-align: center;
-}
-
 .notification-section {
     margin-bottom: 80px;
     display: flex;
@@ -117,39 +71,12 @@ p {
   margin-bottom: 16px;
 }
 
-.notification-card input,
-.signup-form input {
+.notification-card input {
   width: 100%;
   padding: 12px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 4px;
   margin-top: 12px;
-}
-
-.signup-form {
-  max-width: 340px;
-  width: 100%;
-}
-
-.signup-form h2 {
-  color: #000000;
-  margin-bottom: 24px;
-}
-
-.signup-form button {
-  width: 100%;
-  padding: 14px;
-  background: #2B4CB9;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  margin-top: 16px;
-  cursor: pointer;
-  font-weight: 600;
-}
-
-.signup-form button:hover {
-  background: #1a3ba8;
 }
 
 .testimonials-section {
@@ -185,7 +112,6 @@ p {
   opacity: 0.7;
 }
 
-/* Responsive Design */
 @media (max-width: 1024px) {
   .landing-page {
     flex-direction: column;
@@ -202,7 +128,6 @@ p {
   }
 }
 
-/* Add responsive styles */
 @media (max-width: 768px) {
   .landing-page {
     flex-direction: column;
@@ -233,10 +158,6 @@ p {
 
   .infinite-carousel-wrapper {
     margin-top: 40px;
-  }
-
-  .signup-form {
-    padding: 0 20px;
   }
 
   .testimonials-container {
@@ -271,13 +192,8 @@ p {
     min-width: 260px;
     padding: 16px;
   }
-
-  .right-section .signup-form h2 {
-    font-size: 30px;
-  }
 }
 
-/* Add tablet specific styles */
 @media (min-width: 769px) and (max-width: 1024px) {
   .landing-page {
     flex-direction: column;
@@ -302,13 +218,8 @@ p {
     width: calc(50% - 12px);
     min-width: 300px;
   }
-
-  .signup-form {
-    max-width: 440px;
-  }
 }
 
-/* Scrollbar Styling */
 ::-webkit-scrollbar {
   width: 6px;
   height: 6px;

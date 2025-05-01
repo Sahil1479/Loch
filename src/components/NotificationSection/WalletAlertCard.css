@@ -29,24 +29,6 @@
     margin-top: 4px;
   }
   
-  .bar {
-    width: 3px;
-    background: black;
-    border-radius: 1px;
-  }
-  
-  .bar.short {
-    height: 10px;
-  }
-  
-  .bar.medium {
-    height: 14px;
-  }
-  
-  .bar.tall {
-    height: 18px;
-  }
-  
   .card-body {
     margin-top: 0px;
   }
@@ -67,7 +49,3 @@
     background: #e1e1e1;
   }
   
-  .card-footer {
-    color: black;
-    font-size: 11px;
-  }

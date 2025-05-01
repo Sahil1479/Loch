@@ -1,24 +1,18 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import Marquee from "react-fast-marquee";
 import NotificationCard from './NotificationCard';
 import WalletAlertCard from './WalletAlertCard';
 import WalletActiveAlertCard from './WalletActiveAlertCard';
 import './carousel.css';
 
-const cards = [
-  <NotificationCard key="notif" />,
-  <WalletAlertCard key="wallet" />,
-  <WalletActiveAlertCard key="active" />,
-];
-
 const NotificationCarousel = () => {
   return (
     <div className="infinite-carousel-wrapper fade-dynamic">
-    <Marquee pauseOnHover={true} speed={40} gradient={false}>
-        <div style={{ width: '80%', marginRight: 10 }}><NotificationCard /></div>
-        <div style={{ width: '80%', marginRight: 10 }}><WalletAlertCard /></div>
-        <div style={{ width: '80%', marginRight: 10 }}><WalletActiveAlertCard /></div>
-    </Marquee>
+        <Marquee pauseOnHover={true} speed={40} gradient={false}>
+            <div style={{ width: '80%', marginRight: 10 }}><NotificationCard /></div>
+            <div style={{ width: '80%', marginRight: 10 }}><WalletAlertCard /></div>
+            <div style={{ width: '80%', marginRight: 10 }}><WalletActiveAlertCard /></div>
+        </Marquee>
    </div>
   );
 };

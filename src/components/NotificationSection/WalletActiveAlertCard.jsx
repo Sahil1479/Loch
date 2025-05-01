@@ -1,7 +1,7 @@
 import React from 'react';
 import './WalletAlertCard.css';
 import clockIcon from '../../images/clock.svg';
-import './WalletAlertCard.css'; // Assuming you have a separate CSS file for this component
+import './WalletAlertCard.css';
 
 const WalletActiveAlertCard = () => {
   return (

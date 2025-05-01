@@ -6,14 +6,14 @@ import logo from "../../images/Vector.svg";
 export const TestimonialsSection = () => {
   const testimonials = [
     {
-      name: "Jack F",
-      designation: "Ex Blackrock PM",
-      message: "Love how Loch integrates portfolio analytics and whale watching into one unified app."
+        name: "Jack F",
+        designation: "Ex Blackrock PM",
+        message: "Love how Loch integrates portfolio analytics and whale watching into one unified app."
     },
     {
-      name: "Yash P",
-      designation: "Research, 3poch Crypto Hedge Fund",
-      message: "I use Loch everyday now. I don't think I could analyze crypto whale trends markets without it. I'm addicted!"
+        name: "Yash P",
+        designation: "Research, 3poch Crypto Hedge Fund",
+        message: "I use Loch everyday now. I don't think I could analyze crypto whale trends markets without it. I'm addicted!"
     },
     {
         name: "Shiv S",
@@ -28,7 +28,7 @@ export const TestimonialsSection = () => {
         <div className="testimonials-container">
             <img src={logo} alt="logo" className="logo-icon" />
             <div className="testimonials-container">
-                {testimonials.map((testimonial, index) => (
+                {testimonials.map((testimonial, _) => (
                 <TestimonialCard name={testimonial.name} designation={testimonial.designation} message={testimonial.message} />
                 ))}
             </div>

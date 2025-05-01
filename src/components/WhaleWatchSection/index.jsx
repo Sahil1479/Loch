@@ -1,15 +1,16 @@
 import React from "react";
 import EyeIcon from "../../images/Eye.svg";
+import cohortImage from "../../images/Cohorts-image.svg";
 import "./style.css";
 
 export const WhaleWatchSection = () => {
   return (
-    <div className="box" data-model-id="1:342-frame">
+    <div className="box">
       <div className="group">
         <img
           className="cohorts"
           alt="Cohorts"
-          src="https://c.animaapp.com/ma4arnhcoYeP2d/img/cohorts-1.svg"
+          src={cohortImage}
         />
         <div className="content-wrapper">
           <div className="div">
@@ -17,11 +18,11 @@ export const WhaleWatchSection = () => {
                 <img
                     className="eye"
                     alt="Eye"
-                    src="https://c.animaapp.com/ma4arnhcoYeP2d/img/eye.svg"
+                    src={EyeIcon}
                 />
             </div>
-            <h2 className="whale-watch-section">Watch what the whales are doing</h2>
-            <p className="text-wrapper">
+            <h2 className="whale-watch-header">Watch what the whales are doing</h2>
+            <p className="whale-watch-description">
               All whales are not equal. Know exactly what the whales impacting
               YOUR portfolio are doing.
             </p>
