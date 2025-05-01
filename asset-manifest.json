@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Loch/static/css/main.ac86f783.css",
+    "main.js": "/Loch/static/js/main.eafedbff.js",
+    "static/media/Cohorts-image.svg": "/Loch/static/media/Cohorts-image.90f2f12c2ba596d2b876db1b4ee1e516.svg",
+    "static/media/Eye.svg": "/Loch/static/media/Eye.1b4e2edaa592328e57b43dbd5fd29910.svg",
+    "static/media/Bell-White.svg": "/Loch/static/media/Bell-White.3a632f05c64ce6ceac68df74c9e652d0.svg",
+    "static/media/Vector.svg": "/Loch/static/media/Vector.972c8a77129582b0a3efad85c9dd0464.svg",
+    "static/media/Bell-Black.svg": "/Loch/static/media/Bell-Black.12f864ab55c9590187d9db31c9729db4.svg",
+    "index.html": "/Loch/index.html",
+    "static/media/clock.svg": "/Loch/static/media/clock.e9b622fa589d07fbbc1260fa871c042e.svg",
+    "static/media/bar-chart-2.svg": "/Loch/static/media/bar-chart-2.f419946f606bc6180a66c3162b2e57f0.svg",
+    "main.ac86f783.css.map": "/Loch/static/css/main.ac86f783.css.map",
+    "main.eafedbff.js.map": "/Loch/static/js/main.eafedbff.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ac86f783.css",
+    "static/js/main.eafedbff.js"
+  ]
+}
