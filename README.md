@@ -2,6 +2,10 @@
 
 Welcome to the Loch Landing Page project! This repository contains the source code for the Loch.one landing page.
 
+Live Demo: [https://sahil1479.github.io/Loch/](https://sahil1479.github.io/Loch/)
+
+Watch Demo: [Link](https://drive.google.com/file/d/1EuFu4BfEji2XIyFC0W_-q9KfFRnCMKBH/view?usp=sharing)
+
 ## Prerequisites
 
 Before you begin, ensure you have the following installed:
