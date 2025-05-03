@@ -1,6 +1,6 @@
 import React from "react";
 import EyeIcon from "../../images/Eye.svg";
-import cohortImage from "../../images/Cohorts-image.svg";
+import cohortImage from "../../images/Cohorts-image-cropped.svg";
 import "./style.css";
 
 export const WhaleWatchSection = () => {

@@ -12,6 +12,16 @@
     padding-bottom: 25px;
 }
 
+.testimonials-container {
+    cursor: grab;
+    scroll-behavior: smooth;
+    user-select: none;
+}
+
+.testimonials-container::-webkit-scrollbar {
+    display: none;
+}
+
 @media screen and (max-width: 480px) {
     .testimonials-container {
         padding: 0px;

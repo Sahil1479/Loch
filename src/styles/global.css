@@ -16,11 +16,11 @@
     padding: 40px;
     background: radial-gradient(135.84% 97.84% at 0% 100%, rgba(31, 169, 17, 0.81) 41.21%, #2F15D0 76.58%, rgba(0, 0, 0, 0) 100%);
     color: white;
-    max-width: 60%;
+    max-width: 55%;
 }
 
 .right-section {
-  width: 40%;
+  width: 45%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -29,7 +29,7 @@
 }
 
 .notification-section {
-    margin-bottom: 80px;
+    margin-bottom: 60px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -41,6 +41,7 @@
 h2 {
   font-size: 31px;
   line-height: 40px;
+  font-weight: 500;
   margin: 24px 0 16px;
 }
 
@@ -80,7 +81,7 @@ p {
 }
 
 .testimonials-section {
-  margin-top: 80px;
+  margin-top: 15px;
 }
 
 .testimonials-container {
@@ -120,11 +121,13 @@ p {
   .right-section {
     width: 100%;
     padding: 40px 20px;
+    order: 1;
   }
   
   .left-section {
     padding: 40px 20px;
     max-width: 100%;
+    order: 2;
   }
 }
 
@@ -189,8 +192,12 @@ p {
   }
 
   .testimonial-card {
-    min-width: 260px;
+    min-width: 200px;
     padding: 16px;
+  }
+
+  .testimonials-section {
+    margin-top: 40px;
   }
 }
 
@@ -217,6 +224,10 @@ p {
   .notification-card {
     width: calc(50% - 12px);
     min-width: 300px;
+  }
+
+  .testimonials-section {
+    margin-top: 40px;
   }
 }
 
